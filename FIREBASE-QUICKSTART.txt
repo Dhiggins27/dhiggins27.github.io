@@ -1,0 +1,79 @@
+# 🔥 Firebase Quick Start
+
+## What Just Changed?
+
+Your app now has **REAL-TIME SYNCING**! 
+
+When firefighter Joe adds a check-in on his phone → Everyone sees it instantly on their devices!
+
+---
+
+## 🚀 Two Ways to Use It
+
+### Option 1: Skip Firebase (Keep Using Offline)
+- Click "Skip - Use Offline Only"
+- Works exactly like before
+- Data stays on each device
+- **Perfect if you only use one device**
+
+### Option 2: Enable Firebase (Recommended)
+- Follow the 5-minute setup in FIREBASE-SETUP.md
+- All devices sync automatically
+- Everyone sees the same data
+- **Perfect for departments with multiple users**
+
+---
+
+## ⚡ Quick Setup (If You Want Syncing)
+
+1. **Go to:** https://console.firebase.google.com
+2. **Create project** → "Fire Truck CheckIn"
+3. **Add web app** → Copy the config
+4. **Enable Firestore** → Production mode
+5. **Set rules to:**
+   ```
+   allow read, write: if true;
+   ```
+6. **Paste config** in the app → Save
+7. **Done!**
+
+Full details in `FIREBASE-SETUP.md`
+
+---
+
+## 🎯 What You Get with Firebase
+
+✅ **Real-time sync** - Changes appear instantly  
+✅ **Works offline** - Syncs when reconnected  
+✅ **Cloud backup** - Never lose data  
+✅ **Multiple devices** - Everyone sees everything  
+✅ **100% FREE** - Firebase Spark plan  
+
+---
+
+## 📱 How It Looks
+
+**Home Screen Status Indicators:**
+- 🟢 Synced - Connected and syncing
+- 🟡 Offline - Will sync when online
+- ⚪ Local Only - Firebase not enabled
+
+---
+
+## ⚙️ Files Changed
+
+- `index.html` - Added Firebase SDK
+- `app-firebase.js` - New version with sync
+- `styles.css` - Added toast notifications
+- `FIREBASE-SETUP.md` - Setup instructions
+
+**Old files kept:**
+- `app.js` - Original (offline-only) version still there if needed
+
+---
+
+## 🆘 Need Help?
+
+The app will show a setup screen when you first open it. Just follow the on-screen instructions!
+
+Or read the detailed guide in `FIREBASE-SETUP.md`
