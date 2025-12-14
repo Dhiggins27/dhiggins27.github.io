@@ -955,10 +955,10 @@ class FireTruckApp {
     <title>${title}</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
-        h1 { color: #C41E3A; text-align: center; }
+        h1 { color: #000000; text-align: center; }
         .date-range { text-align: center; color: #666; margin-bottom: 30px; }
         .truck-section { margin-bottom: 40px; page-break-inside: avoid; }
-        .truck-header { background: #C41E3A; color: white; padding: 15px; font-size: 18px; font-weight: bold; }
+        .truck-header { background: #000000; color: white; padding: 15px; font-size: 18px; font-weight: bold; }
         .checkin { border: 1px solid #ddd; padding: 15px; margin: 10px 0; }
         .checkin-header { font-weight: bold; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 10px; }
         .pass { color: green; }

@@ -235,7 +235,7 @@ body {
 
 .truck-item:hover {
     border-color: var(--primary);
-    box-shadow: 0 2px 8px rgba(196, 30, 58, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .truck-info h3 {
